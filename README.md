@@ -13,11 +13,15 @@ To drive Chrome from code, you need a pilot. We will use Watir. With Watir, you 
 
 ## Instructions
 
-We will scrape the data out of "Matcha and keyboard" a website listing co-work cafes in Tokyo.
+We will scrape the data out of ["Matcha and keyboard" a website](https://yannklein.github.io/react-workshop-ref/) listing co-work cafes in Tokyo.
+
+![alt text](image.png)
 
 ### First try: with Nokogiri
 
 Go to `app.rb` and use Nokogiri to display the content of the `<title>` and the  `<body>` HTML elements of the "Matcha and keyboard" html page.
+
+Ref: https://kitt.lewagon.com/knowledge/cheatsheets/nokogiri
 
 You should see "React Workshop" from the `<title>` content, as expected.
 
@@ -30,6 +34,7 @@ Install the watir gem, in the terminal: `gem install watir`
 Install the terminal chromedriver:
 - For Mac: `brew install --cask chromedriver`
 - For Win: `sudo apt-get install chromium-chromedriver`
+
 if troubles to use the above install it from the website: https://chromedriver.chromium.org/
 
 Read the watir doc: https://www.rubyguides.com/2019/01/ruby-watir-gem/
