@@ -1,4 +1,4 @@
-# The WATIR challenge
+# Advanced scraping: the WATIR challenge
 
 ## Challenge objectives
 
